@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NIDLFE\src\AST\Builder\Builder.h" />
+    <ClInclude Include="NIDLFE\src\AST\Builder\Declarators.h" />
+    <ClInclude Include="NIDLFE\src\AST\Builder\decNumber.h" />
+    <ClInclude Include="NIDLFE\src\AST\Builder\Eval.h" />
+    <ClInclude Include="NIDLFE\src\AST\Builder\EvalEnum.h" />
+    <ClInclude Include="NIDLFE\src\AST\Builder\EvalFixed.h" />
+    <ClInclude Include="NIDLFE\src\AST\Builder\EvalFloatingPoint.h" />
+    <ClInclude Include="NIDLFE\src\AST\Builder\EvalIntegral.h" />
+    <ClInclude Include="NIDLFE\src\AST\Builder\EvalString.h" />
+    <ClInclude Include="NIDLFE\src\FE\Driver.h" />
+    <ClInclude Include="NIDLFE\src\FE\FlexLexer.h" />
+    <ClInclude Include="NIDLFE\src\FE\location.hh" />
+    <ClInclude Include="NIDLFE\src\FE\yacc.tab.h" />
+    <ClInclude Include="NIDLFE\src\include\AST\Array.h" />
+    <ClInclude Include="NIDLFE\src\include\AST\AST.h" />
+    <ClInclude Include="NIDLFE\src\include\AST\Attribute.h" />
+    <ClInclude Include="NIDLFE\src\include\AST\BasicType.h" />
+    <ClInclude Include="NIDLFE\src\include\AST\CodeGen.h" />
+    <ClInclude Include="NIDLFE\src\include\AST\Constant.h" />
+    <ClInclude Include="NIDLFE\src\include\AST\Container.h" />
+    <ClInclude Include="NIDLFE\src\include\AST\Enum.h" />
+    <ClInclude Include="NIDLFE\src\include\AST\Exception.h" />
+    <ClInclude Include="NIDLFE\src\include\AST\Fixed.h" />
+    <ClInclude Include="NIDLFE\src\include\AST\Include.h" />
+    <ClInclude Include="NIDLFE\src\include\AST\Interface.h" />
+    <ClInclude Include="NIDLFE\src\include\AST\Item.h" />
+    <ClInclude Include="NIDLFE\src\include\AST\ItemContainer.h" />
+    <ClInclude Include="NIDLFE\src\include\AST\ItemScope.h" />
+    <ClInclude Include="NIDLFE\src\include\AST\Location.h" />
+    <ClInclude Include="NIDLFE\src\include\AST\Member.h" />
+    <ClInclude Include="NIDLFE\src\include\AST\Module.h" />
+    <ClInclude Include="NIDLFE\src\include\AST\NamedItem.h" />
+    <ClInclude Include="NIDLFE\src\include\AST\Native.h" />
+    <ClInclude Include="NIDLFE\src\include\AST\Operation.h" />
+    <ClInclude Include="NIDLFE\src\include\AST\Parameter.h" />
+    <ClInclude Include="NIDLFE\src\include\AST\RepositoryId.h" />
+    <ClInclude Include="NIDLFE\src\include\AST\ScopedName.h" />
+    <ClInclude Include="NIDLFE\src\include\AST\Sequence.h" />
+    <ClInclude Include="NIDLFE\src\include\AST\Struct.h" />
+    <ClInclude Include="NIDLFE\src\include\AST\Symbols.h" />
+    <ClInclude Include="NIDLFE\src\include\AST\Type.h" />
+    <ClInclude Include="NIDLFE\src\include\AST\TypeDef.h" />
+    <ClInclude Include="NIDLFE\src\include\AST\Union.h" />
+    <ClInclude Include="NIDLFE\src\include\AST\Variant.h" />
+    <ClInclude Include="NIDLFE\src\include\IDL_FrontEnd.h" />
+    <ClInclude Include="NIDLFE\src\simplecpp\simplecpp.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="NIDLFE\src\AST\AST.cpp" />
+    <ClCompile Include="NIDLFE\src\AST\Builder\Builder.cpp" />
+    <ClCompile Include="NIDLFE\src\AST\Builder\Eval.cpp" />
+    <ClCompile Include="NIDLFE\src\AST\Builder\EvalEnum.cpp" />
+    <ClCompile Include="NIDLFE\src\AST\Builder\EvalFixed.cpp" />
+    <ClCompile Include="NIDLFE\src\AST\Builder\EvalFloatingPoint.cpp" />
+    <ClCompile Include="NIDLFE\src\AST\Builder\EvalIntegral.cpp" />
+    <ClCompile Include="NIDLFE\src\AST\Builder\EvalString.cpp" />
+    <ClCompile Include="NIDLFE\src\AST\Container.cpp" />
+    <ClCompile Include="NIDLFE\src\AST\Interface.cpp" />
+    <ClCompile Include="NIDLFE\src\AST\ItemScope.cpp" />
+    <ClCompile Include="NIDLFE\src\AST\NamedItem.cpp" />
+    <ClCompile Include="NIDLFE\src\AST\RepositoryId.cpp" />
+    <ClCompile Include="NIDLFE\src\AST\ScopedName.cpp" />
+    <ClCompile Include="NIDLFE\src\AST\Symbols.cpp" />
+    <ClCompile Include="NIDLFE\src\AST\Type.cpp" />
+    <ClCompile Include="NIDLFE\src\AST\Variant.cpp" />
+    <ClCompile Include="NIDLFE\src\FE\Driver.cpp" />
+    <ClCompile Include="NIDLFE\src\FE\scanner.flex.cpp" />
+    <ClCompile Include="NIDLFE\src\FE\yacc.tab.cpp" />
+    <ClCompile Include="NIDLFE\src\IDL_FrontEnd.cpp" />
+    <ClCompile Include="NIDLFE\src\simplecpp\simplecpp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Flex Include="NIDLFE\src\FE\scanner.ll">
+      <FileType>Document</FileType>
+      <Cpp Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</Cpp>
+      <Cpp Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</Cpp>
+      <Cpp Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</Cpp>
+      <Cpp Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</Cpp>
+    </Flex>
+    <Bison Include="NIDLFE\src\FE\yacc.yy">
+      <FileType>Document</FileType>
+    </Bison>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NIDLFE\readme.md" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{807964a4-597c-45ed-a01a-10607bf44f90}</ProjectGuid>
+    <RootNamespace>NIDLFE</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="..\..\..\..\..\flexbison\custom_build_rules\win_flex_bison\win_flex_bison_custom_build.props" />
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>..\decNumber.vc;NIDLFE\src\FE</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>..\decNumber.VC;NIDLFE\src\FE</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>..\decNumber.vc;NIDLFE\src\FE</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>..\decNumber.VC;NIDLFE\src\FE</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\..\..\..\..\flexbison\custom_build_rules\win_flex_bison\win_flex_bison_custom_build.targets" />
+  </ImportGroup>
+</Project>

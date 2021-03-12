@@ -101,12 +101,14 @@
     <Bison Include="idlfe\src\FE\yacc.yy">
       <FileType>Document</FileType>
     </Bison>
-    <None Include="NIDLFE\readme.md" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\decNumber.vc\decNumber.vcxproj">
       <Project>{1b176788-050f-47ce-81d7-5f128f8a7688}</Project>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="idlfe\readme.md" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

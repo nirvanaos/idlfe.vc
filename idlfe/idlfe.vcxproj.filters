@@ -245,9 +245,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="NIDLFE\readme.md" />
-  </ItemGroup>
-  <ItemGroup>
     <Flex Include="idlfe\src\FE\scanner.ll">
       <Filter>FE</Filter>
     </Flex>
@@ -256,5 +253,8 @@
     <Bison Include="idlfe\src\FE\yacc.yy">
       <Filter>FE</Filter>
     </Bison>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="idlfe\readme.md" />
   </ItemGroup>
 </Project>

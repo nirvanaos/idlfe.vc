@@ -90,7 +90,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\NIDLFE\NIDLFE\src\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\idlfe\idlfe\src\include</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -106,7 +106,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\NIDLFE\NIDLFE\src\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\idlfe\idlfe\src\include</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -122,7 +122,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\NIDLFE\NIDLFE\src\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\idlfe\idlfe\src\include</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -138,7 +138,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\NIDLFE\NIDLFE\src\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\idlfe\idlfe\src\include</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -151,6 +151,9 @@
   <ItemGroup>
     <ProjectReference Include="..\decNumber.vc\decNumber.vcxproj">
       <Project>{1b176788-050f-47ce-81d7-5f128f8a7688}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\idlfe\idlfe.vcxproj">
+      <Project>{807964a4-597c-45ed-a01a-10607bf44f90}</Project>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

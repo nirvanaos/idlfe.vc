@@ -37,224 +37,224 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="NIDLFE\src\include\AST\Array.h">
-      <Filter>AST\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="NIDLFE\src\include\AST\AST.h">
-      <Filter>AST\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="NIDLFE\src\include\AST\Attribute.h">
-      <Filter>AST\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="NIDLFE\src\include\AST\BasicType.h">
-      <Filter>AST\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="NIDLFE\src\include\AST\Constant.h">
-      <Filter>AST\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="NIDLFE\src\include\AST\Container.h">
-      <Filter>AST\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="NIDLFE\src\include\AST\Enum.h">
-      <Filter>AST\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="NIDLFE\src\include\AST\Exception.h">
-      <Filter>AST\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="NIDLFE\src\include\AST\Fixed.h">
-      <Filter>AST\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="NIDLFE\src\include\AST\Include.h">
-      <Filter>AST\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="NIDLFE\src\include\AST\Interface.h">
-      <Filter>AST\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="NIDLFE\src\include\AST\Item.h">
-      <Filter>AST\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="NIDLFE\src\include\AST\ItemContainer.h">
-      <Filter>AST\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="NIDLFE\src\include\AST\ItemScope.h">
-      <Filter>AST\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="NIDLFE\src\include\AST\Location.h">
-      <Filter>AST\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="NIDLFE\src\include\AST\Member.h">
-      <Filter>AST\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="NIDLFE\src\include\AST\Module.h">
-      <Filter>AST\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="NIDLFE\src\include\AST\NamedItem.h">
-      <Filter>AST\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="NIDLFE\src\include\AST\Native.h">
-      <Filter>AST\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="NIDLFE\src\include\AST\Operation.h">
-      <Filter>AST\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="NIDLFE\src\include\AST\Parameter.h">
-      <Filter>AST\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="NIDLFE\src\include\AST\RepositoryId.h">
-      <Filter>AST\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="NIDLFE\src\include\AST\ScopedName.h">
-      <Filter>AST\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="NIDLFE\src\include\AST\Sequence.h">
-      <Filter>AST\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="NIDLFE\src\include\AST\Struct.h">
-      <Filter>AST\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="NIDLFE\src\include\AST\Symbols.h">
-      <Filter>AST\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="NIDLFE\src\include\AST\Type.h">
-      <Filter>AST\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="NIDLFE\src\include\AST\TypeDef.h">
-      <Filter>AST\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="NIDLFE\src\include\AST\Union.h">
-      <Filter>AST\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="NIDLFE\src\include\AST\Variant.h">
-      <Filter>AST\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="NIDLFE\src\AST\Builder\Builder.h">
-      <Filter>AST\Source Files\Builder</Filter>
-    </ClInclude>
-    <ClInclude Include="NIDLFE\src\AST\Builder\Declarators.h">
-      <Filter>AST\Source Files\Builder</Filter>
-    </ClInclude>
-    <ClInclude Include="NIDLFE\src\AST\Builder\decNumber.h">
-      <Filter>AST\Source Files\Builder</Filter>
-    </ClInclude>
-    <ClInclude Include="NIDLFE\src\AST\Builder\Eval.h">
-      <Filter>AST\Source Files\Builder</Filter>
-    </ClInclude>
-    <ClInclude Include="NIDLFE\src\AST\Builder\EvalEnum.h">
-      <Filter>AST\Source Files\Builder</Filter>
-    </ClInclude>
-    <ClInclude Include="NIDLFE\src\AST\Builder\EvalFixed.h">
-      <Filter>AST\Source Files\Builder</Filter>
-    </ClInclude>
-    <ClInclude Include="NIDLFE\src\AST\Builder\EvalFloatingPoint.h">
-      <Filter>AST\Source Files\Builder</Filter>
-    </ClInclude>
-    <ClInclude Include="NIDLFE\src\AST\Builder\EvalIntegral.h">
-      <Filter>AST\Source Files\Builder</Filter>
-    </ClInclude>
-    <ClInclude Include="NIDLFE\src\AST\Builder\EvalString.h">
-      <Filter>AST\Source Files\Builder</Filter>
-    </ClInclude>
-    <ClInclude Include="NIDLFE\src\FE\Driver.h">
-      <Filter>FE</Filter>
-    </ClInclude>
-    <ClInclude Include="NIDLFE\src\FE\FlexLexer.h">
-      <Filter>FE</Filter>
-    </ClInclude>
-    <ClInclude Include="NIDLFE\src\FE\location.hh">
-      <Filter>FE\Generated Files</Filter>
-    </ClInclude>
-    <ClInclude Include="NIDLFE\src\FE\yacc.tab.h">
-      <Filter>FE\Generated Files</Filter>
-    </ClInclude>
-    <ClInclude Include="NIDLFE\src\simplecpp\simplecpp.h">
+    <ClInclude Include="idlfe\src\simplecpp\simplecpp.h">
       <Filter>simplecpp</Filter>
     </ClInclude>
-    <ClInclude Include="NIDLFE\src\include\IDL_FrontEnd.h">
+    <ClInclude Include="idlfe\src\include\IDL_FrontEnd.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="NIDLFE\src\include\AST\CodeGen.h">
+    <ClInclude Include="idlfe\src\FE\Driver.h">
+      <Filter>FE</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\FE\FlexLexer.h">
+      <Filter>FE</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\Array.h">
       <Filter>AST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\AST.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\Attribute.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\BasicType.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\CodeGen.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\Constant.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\Container.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\Enum.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\Exception.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\Fixed.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\Include.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\Interface.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\Item.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\ItemContainer.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\ItemScope.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\Location.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\Member.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\Module.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\NamedItem.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\Native.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\Operation.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\Parameter.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\RepositoryId.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\ScopedName.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\Sequence.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\Struct.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\Symbols.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\Type.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\TypeDef.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\Union.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\Variant.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\AST\Builder\Builder.h">
+      <Filter>AST\Source Files\Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\AST\Builder\Declarators.h">
+      <Filter>AST\Source Files\Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\AST\Builder\decNumber.h">
+      <Filter>AST\Source Files\Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\AST\Builder\Eval.h">
+      <Filter>AST\Source Files\Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\AST\Builder\EvalEnum.h">
+      <Filter>AST\Source Files\Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\AST\Builder\EvalFixed.h">
+      <Filter>AST\Source Files\Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\AST\Builder\EvalFloatingPoint.h">
+      <Filter>AST\Source Files\Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\AST\Builder\EvalIntegral.h">
+      <Filter>AST\Source Files\Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\AST\Builder\EvalString.h">
+      <Filter>AST\Source Files\Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\FE\location.hh">
+      <Filter>FE\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\FE\yacc.tab.h">
+      <Filter>FE\Generated Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="NIDLFE\src\AST\AST.cpp">
-      <Filter>AST\Source Files</Filter>
+    <ClCompile Include="idlfe\src\IDL_FrontEnd.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="NIDLFE\src\AST\Container.cpp">
-      <Filter>AST\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="NIDLFE\src\AST\Interface.cpp">
-      <Filter>AST\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="NIDLFE\src\AST\ItemScope.cpp">
-      <Filter>AST\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="NIDLFE\src\AST\NamedItem.cpp">
-      <Filter>AST\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="NIDLFE\src\AST\RepositoryId.cpp">
-      <Filter>AST\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="NIDLFE\src\AST\ScopedName.cpp">
-      <Filter>AST\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="NIDLFE\src\AST\Symbols.cpp">
-      <Filter>AST\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="NIDLFE\src\AST\Type.cpp">
-      <Filter>AST\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="NIDLFE\src\AST\Variant.cpp">
-      <Filter>AST\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="NIDLFE\src\AST\Builder\Builder.cpp">
-      <Filter>AST\Source Files\Builder</Filter>
-    </ClCompile>
-    <ClCompile Include="NIDLFE\src\AST\Builder\Eval.cpp">
-      <Filter>AST\Source Files\Builder</Filter>
-    </ClCompile>
-    <ClCompile Include="NIDLFE\src\AST\Builder\EvalEnum.cpp">
-      <Filter>AST\Source Files\Builder</Filter>
-    </ClCompile>
-    <ClCompile Include="NIDLFE\src\AST\Builder\EvalFixed.cpp">
-      <Filter>AST\Source Files\Builder</Filter>
-    </ClCompile>
-    <ClCompile Include="NIDLFE\src\AST\Builder\EvalFloatingPoint.cpp">
-      <Filter>AST\Source Files\Builder</Filter>
-    </ClCompile>
-    <ClCompile Include="NIDLFE\src\AST\Builder\EvalIntegral.cpp">
-      <Filter>AST\Source Files\Builder</Filter>
-    </ClCompile>
-    <ClCompile Include="NIDLFE\src\AST\Builder\EvalString.cpp">
-      <Filter>AST\Source Files\Builder</Filter>
-    </ClCompile>
-    <ClCompile Include="NIDLFE\src\FE\Driver.cpp">
-      <Filter>FE</Filter>
-    </ClCompile>
-    <ClCompile Include="NIDLFE\src\FE\scanner.flex.cpp">
-      <Filter>FE\Generated Files</Filter>
-    </ClCompile>
-    <ClCompile Include="NIDLFE\src\FE\yacc.tab.cpp">
-      <Filter>FE\Generated Files</Filter>
-    </ClCompile>
-    <ClCompile Include="NIDLFE\src\simplecpp\simplecpp.cpp">
+    <ClCompile Include="idlfe\src\simplecpp\simplecpp.cpp">
       <Filter>simplecpp</Filter>
     </ClCompile>
-    <ClCompile Include="NIDLFE\src\IDL_FrontEnd.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="idlfe\src\FE\Driver.cpp">
+      <Filter>FE</Filter>
+    </ClCompile>
+    <ClCompile Include="idlfe\src\AST\Builder\Builder.cpp">
+      <Filter>AST\Source Files\Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="idlfe\src\AST\Builder\Eval.cpp">
+      <Filter>AST\Source Files\Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="idlfe\src\AST\Builder\EvalEnum.cpp">
+      <Filter>AST\Source Files\Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="idlfe\src\AST\Builder\EvalFixed.cpp">
+      <Filter>AST\Source Files\Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="idlfe\src\AST\Builder\EvalFloatingPoint.cpp">
+      <Filter>AST\Source Files\Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="idlfe\src\AST\Builder\EvalIntegral.cpp">
+      <Filter>AST\Source Files\Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="idlfe\src\AST\Builder\EvalString.cpp">
+      <Filter>AST\Source Files\Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="idlfe\src\AST\AST.cpp">
+      <Filter>AST\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="idlfe\src\AST\Container.cpp">
+      <Filter>AST\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="idlfe\src\AST\Interface.cpp">
+      <Filter>AST\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="idlfe\src\AST\ItemScope.cpp">
+      <Filter>AST\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="idlfe\src\AST\NamedItem.cpp">
+      <Filter>AST\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="idlfe\src\AST\RepositoryId.cpp">
+      <Filter>AST\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="idlfe\src\AST\ScopedName.cpp">
+      <Filter>AST\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="idlfe\src\AST\Symbols.cpp">
+      <Filter>AST\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="idlfe\src\AST\Type.cpp">
+      <Filter>AST\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="idlfe\src\AST\Variant.cpp">
+      <Filter>AST\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="idlfe\src\FE\scanner.flex.cpp">
+      <Filter>FE\Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="idlfe\src\FE\yacc.tab.cpp">
+      <Filter>FE\Generated Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Flex Include="NIDLFE\src\FE\scanner.ll">
+    <None Include="NIDLFE\readme.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Flex Include="idlfe\src\FE\scanner.ll">
       <Filter>FE</Filter>
     </Flex>
   </ItemGroup>
   <ItemGroup>
-    <Bison Include="NIDLFE\src\FE\yacc.yy">
+    <Bison Include="idlfe\src\FE\yacc.yy">
       <Filter>FE</Filter>
     </Bison>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="NIDLFE\readme.md" />
   </ItemGroup>
 </Project>

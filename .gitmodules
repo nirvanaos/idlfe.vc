@@ -1,0 +1,6 @@
+[submodule "idlfe/idlfe"]
+	path = idlfe/idlfe
+	url = https://github.com/nirvanaos/idlfe.git
+[submodule "decNumber.vc"]
+	path = decNumber.vc
+	url = https://github.com/nirvanaos/decNumber.vc.git

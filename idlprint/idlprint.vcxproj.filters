@@ -15,21 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\NIDLFE\NIDLFE\example\Printer.cpp">
+    <ClCompile Include="..\idlfe\idlfe\example\IDL_Print.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\NIDLFE\NIDLFE\example\IDL_Print.cpp">
+    <ClCompile Include="..\idlfe\idlfe\example\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\NIDLFE\NIDLFE\example\main.cpp">
+    <ClCompile Include="..\idlfe\idlfe\example\Printer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\NIDLFE\NIDLFE\example\Printer.h">
+    <ClInclude Include="..\idlfe\idlfe\example\IDL_Print.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\NIDLFE\NIDLFE\example\IDL_Print.h">
+    <ClInclude Include="..\idlfe\idlfe\example\Printer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

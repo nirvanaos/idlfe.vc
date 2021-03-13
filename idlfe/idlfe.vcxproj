@@ -42,6 +42,7 @@
     <ClInclude Include="idlfe\src\include\AST\Enum.h" />
     <ClInclude Include="idlfe\src\include\AST\Exception.h" />
     <ClInclude Include="idlfe\src\include\AST\Fixed.h" />
+    <ClInclude Include="idlfe\src\include\AST\Identifier.h" />
     <ClInclude Include="idlfe\src\include\AST\Include.h" />
     <ClInclude Include="idlfe\src\include\AST\Interface.h" />
     <ClInclude Include="idlfe\src\include\AST\Item.h" />
@@ -76,6 +77,7 @@
     <ClCompile Include="idlfe\src\AST\Builder\EvalIntegral.cpp" />
     <ClCompile Include="idlfe\src\AST\Builder\EvalString.cpp" />
     <ClCompile Include="idlfe\src\AST\Container.cpp" />
+    <ClCompile Include="idlfe\src\AST\Identifier.cpp" />
     <ClCompile Include="idlfe\src\AST\Interface.cpp" />
     <ClCompile Include="idlfe\src\AST\ItemScope.cpp" />
     <ClCompile Include="idlfe\src\AST\NamedItem.cpp" />

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" InitialTargets="nirvanaos_idlfe_vc_init">
+  <PropertyGroup Label="Default initializers for properties">
+    <Linkage-nirvanaos_idlfe_vc Condition="'$(Linkage-nirvanaos_idlfe_vc)' == ''">dynamic</Linkage-nirvanaos_idlfe_vc>
+    <CallingConvention-nirvanaos_idlfe_vc Condition="'$(CallingConvention-nirvanaos_idlfe_vc)' == ''">cdecl</CallingConvention-nirvanaos_idlfe_vc>
+  </PropertyGroup>
+  <ItemDefinitionGroup Label="Win32 and Debug" Condition="'$(Platform.ToLower())' == 'win32' And ( $(Configuration.ToLower().IndexOf('debug')) &gt; -1 )">
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/Win32\Debug\decNumber.lib;$(MSBuildThisFileDirectory)../..//build/native/lib/Win32\Debug\idlfe-1.0.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Label="Win32 and Release" Condition="'$(Platform.ToLower())' == 'win32' And ( $(Configuration.ToLower().IndexOf('debug')) == -1 )">
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/Win32\Release\decNumber.lib;$(MSBuildThisFileDirectory)../..//build/native/lib/Win32\Release\idlfe-1.0.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Label="x64 and Debug" Condition="'$(Platform.ToLower())' == 'x64' And ( $(Configuration.ToLower().IndexOf('debug')) &gt; -1 )">
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/x64\Debug\decNumber.lib;$(MSBuildThisFileDirectory)../..//build/native/lib/x64\Debug\idlfe-1.0.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Label="x64 and Release" Condition="'$(Platform.ToLower())' == 'x64' And ( $(Configuration.ToLower().IndexOf('debug')) == -1 )">
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/x64\Release\decNumber.lib;$(MSBuildThisFileDirectory)../..//build/native/lib/x64\Release\idlfe-1.0.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(MSBuildThisFileDirectory)../..//build/native/include/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>$(MSBuildThisFileDirectory)../..//build/native/include/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <PropertyPageSchema Include="$(MSBuildThisFileDirectory)\default-propertiesui.xml" />
+  </ItemGroup>
+  <UsingTask TaskName="nirvanaos_idlfe_vc_Contains" AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.v4.0.dll" TaskFactory="CodeTaskFactory">
+    <ParameterGroup>
+      <Text Output="false" ParameterType="System.String" />
+      <Library Output="false" Required="true" ParameterType="System.String" />
+      <Value Output="false" Required="true" ParameterType="System.String" />
+      <Result Output="true" ParameterType="System.String" />
+    </ParameterGroup>
+    <Task>
+      <Code>Result = ((Text ?? "").Split(';').Contains(Library) ) ? Value : String.Empty;</Code>
+    </Task>
+  </UsingTask>
+  <Target Name="nirvanaos_idlfe_vc_init">
+    <nirvanaos_idlfe_vc_Contains Text="Linkage-dynamic" Library="nirvanaos_idlfe_vc" Value="dynamic" Condition="'$(Linkage-nirvanaos_idlfe_vc)'==''">
+      <Output TaskParameter="Result" PropertyName="Linkage-nirvanaos_idlfe_vc" />
+    </nirvanaos_idlfe_vc_Contains>
+    <nirvanaos_idlfe_vc_Contains Text="Linkage-static" Library="nirvanaos_idlfe_vc" Value="static" Condition="'$(Linkage-nirvanaos_idlfe_vc)'==''">
+      <Output TaskParameter="Result" PropertyName="Linkage-nirvanaos_idlfe_vc" />
+    </nirvanaos_idlfe_vc_Contains>
+    <nirvanaos_idlfe_vc_Contains Text="Linkage-ltcg" Library="nirvanaos_idlfe_vc" Value="ltcg" Condition="'$(Linkage-nirvanaos_idlfe_vc)'==''">
+      <Output TaskParameter="Result" PropertyName="Linkage-nirvanaos_idlfe_vc" />
+    </nirvanaos_idlfe_vc_Contains>
+    <nirvanaos_idlfe_vc_Contains Text="Linkage-sxs" Library="nirvanaos_idlfe_vc" Value="sxs" Condition="'$(Linkage-nirvanaos_idlfe_vc)'==''">
+      <Output TaskParameter="Result" PropertyName="Linkage-nirvanaos_idlfe_vc" />
+    </nirvanaos_idlfe_vc_Contains>
+    <nirvanaos_idlfe_vc_Contains Text="CallingConvention-cdecl" Library="nirvanaos_idlfe_vc" Value="cdecl" Condition="'$(CallingConvention-nirvanaos_idlfe_vc)'==''">
+      <Output TaskParameter="Result" PropertyName="CallingConvention-nirvanaos_idlfe_vc" />
+    </nirvanaos_idlfe_vc_Contains>
+    <nirvanaos_idlfe_vc_Contains Text="CallingConvention-stdcall" Library="nirvanaos_idlfe_vc" Value="stdcall" Condition="'$(CallingConvention-nirvanaos_idlfe_vc)'==''">
+      <Output TaskParameter="Result" PropertyName="CallingConvention-nirvanaos_idlfe_vc" />
+    </nirvanaos_idlfe_vc_Contains>
+    <nirvanaos_idlfe_vc_Contains Text="CallingConvention-fastcall" Library="nirvanaos_idlfe_vc" Value="fastcall" Condition="'$(CallingConvention-nirvanaos_idlfe_vc)'==''">
+      <Output TaskParameter="Result" PropertyName="CallingConvention-nirvanaos_idlfe_vc" />
+    </nirvanaos_idlfe_vc_Contains>
+    <nirvanaos_idlfe_vc_Contains Text="CallingConvention-thiscall" Library="nirvanaos_idlfe_vc" Value="thiscall" Condition="'$(CallingConvention-nirvanaos_idlfe_vc)'==''">
+      <Output TaskParameter="Result" PropertyName="CallingConvention-nirvanaos_idlfe_vc" />
+    </nirvanaos_idlfe_vc_Contains>
+    <nirvanaos_idlfe_vc_Contains Text="CallingConvention-clrcall" Library="nirvanaos_idlfe_vc" Value="clrcall" Condition="'$(CallingConvention-nirvanaos_idlfe_vc)'==''">
+      <Output TaskParameter="Result" PropertyName="CallingConvention-nirvanaos_idlfe_vc" />
+    </nirvanaos_idlfe_vc_Contains>
+  </Target>
+</Project>

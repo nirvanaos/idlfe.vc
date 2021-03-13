@@ -1,0 +1,59 @@
+nuget {
+	nuspec {
+		id = nirvanaos.idlfe.vc;
+		version: 1.0.0;
+		title: IDL front-end library;
+		authors: Igor Popov;
+		owners: Igor Popov;
+		license: LGPL
+		projectUrl: "https://github.com/nirvanaos/idlfe"
+		requireLicenseAcceptance: false;
+		summary: CORBA IDL compiler front-end library;
+		description: "This library is intended for the easy creation of the CORBA IDL compilers.";
+		releaseNotes: "";
+		copyright: Copyright (c) 2021;
+		tags: { native CORBA IDL compiler front-end };
+	};
+
+	dependencies {
+		packages : {
+		};
+	};
+
+	files{
+		#defines{
+			SRC = ..\idlfe\idlfe\src\;
+			LIBNAME = idlfe-1.0;
+		}
+
+		nestedinclude: {
+			#destination=${d_include};
+			"${SRC}include\**\*.h"
+		};
+
+		[Win32,debug] {
+			lib: {
+				"..\Win32\Debug\${LIBNAME}.lib",
+				"..\Win32\Debug MD\decNumber.lib"
+			};
+		}
+		[Win32,release] {
+			lib: {
+				"..\Win32\Release\${LIBNAME}.lib",
+				"..\Win32\Release MD\decNumber.lib"
+			};
+		}
+		[x64,debug] {
+			lib: {
+				"..\x64\Debug\${LIBNAME}.lib",
+				"..\x64\Debug MD\decNumber.lib"
+			};
+		}
+		[x64,release] {
+			lib: {
+				"..\x64\Release\${LIBNAME}.lib",
+				"..\x64\Release MD\decNumber.lib"
+			};
+		}
+	};
+}

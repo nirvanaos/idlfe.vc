@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>nirvanaos.idlfe.vc</id>
+    <version>1.0.0</version>
+    <title>IDL front-end library</title>
+    <authors>Igor Popov</authors>
+    <owners>Igor Popov</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+<!--    <license>LGPL</license>-->
+    <projectUrl>https://github.com/nirvanaos/idlfe/</projectUrl>
+    <description>This library is intended for the easy creation of the CORBA IDL compilers.</description>
+    <summary>CORBA IDL compiler front-end library</summary>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2021</copyright>
+    <tags>native CORBA IDL compiler front-end nativepackage</tags>
+  </metadata>
+  <files>
+    <file src="..\idlfe\idlfe\src\include\AST\Array.h" target="build\native\include\AST\Array.h" />
+    <file src="..\idlfe\idlfe\src\include\AST\AST.h" target="build\native\include\AST\AST.h" />
+    <file src="..\idlfe\idlfe\src\include\AST\Attribute.h" target="build\native\include\AST\Attribute.h" />
+    <file src="..\idlfe\idlfe\src\include\AST\BasicType.h" target="build\native\include\AST\BasicType.h" />
+    <file src="..\idlfe\idlfe\src\include\AST\CodeGen.h" target="build\native\include\AST\CodeGen.h" />
+    <file src="..\idlfe\idlfe\src\include\AST\Constant.h" target="build\native\include\AST\Constant.h" />
+    <file src="..\idlfe\idlfe\src\include\AST\Container.h" target="build\native\include\AST\Container.h" />
+    <file src="..\idlfe\idlfe\src\include\AST\Enum.h" target="build\native\include\AST\Enum.h" />
+    <file src="..\idlfe\idlfe\src\include\AST\Exception.h" target="build\native\include\AST\Exception.h" />
+    <file src="..\idlfe\idlfe\src\include\AST\Fixed.h" target="build\native\include\AST\Fixed.h" />
+    <file src="..\idlfe\idlfe\src\include\AST\Include.h" target="build\native\include\AST\Include.h" />
+    <file src="..\idlfe\idlfe\src\include\AST\Interface.h" target="build\native\include\AST\Interface.h" />
+    <file src="..\idlfe\idlfe\src\include\AST\Item.h" target="build\native\include\AST\Item.h" />
+    <file src="..\idlfe\idlfe\src\include\AST\ItemContainer.h" target="build\native\include\AST\ItemContainer.h" />
+    <file src="..\idlfe\idlfe\src\include\AST\ItemScope.h" target="build\native\include\AST\ItemScope.h" />
+    <file src="..\idlfe\idlfe\src\include\AST\Location.h" target="build\native\include\AST\Location.h" />
+    <file src="..\idlfe\idlfe\src\include\AST\Member.h" target="build\native\include\AST\Member.h" />
+    <file src="..\idlfe\idlfe\src\include\AST\Module.h" target="build\native\include\AST\Module.h" />
+    <file src="..\idlfe\idlfe\src\include\AST\NamedItem.h" target="build\native\include\AST\NamedItem.h" />
+    <file src="..\idlfe\idlfe\src\include\AST\Native.h" target="build\native\include\AST\Native.h" />
+    <file src="..\idlfe\idlfe\src\include\AST\Operation.h" target="build\native\include\AST\Operation.h" />
+    <file src="..\idlfe\idlfe\src\include\AST\Parameter.h" target="build\native\include\AST\Parameter.h" />
+    <file src="..\idlfe\idlfe\src\include\AST\RepositoryId.h" target="build\native\include\AST\RepositoryId.h" />
+    <file src="..\idlfe\idlfe\src\include\AST\ScopedName.h" target="build\native\include\AST\ScopedName.h" />
+    <file src="..\idlfe\idlfe\src\include\AST\Sequence.h" target="build\native\include\AST\Sequence.h" />
+    <file src="..\idlfe\idlfe\src\include\AST\Struct.h" target="build\native\include\AST\Struct.h" />
+    <file src="..\idlfe\idlfe\src\include\AST\Symbols.h" target="build\native\include\AST\Symbols.h" />
+    <file src="..\idlfe\idlfe\src\include\AST\Type.h" target="build\native\include\AST\Type.h" />
+    <file src="..\idlfe\idlfe\src\include\AST\TypeDef.h" target="build\native\include\AST\TypeDef.h" />
+    <file src="..\idlfe\idlfe\src\include\AST\Union.h" target="build\native\include\AST\Union.h" />
+    <file src="..\idlfe\idlfe\src\include\AST\Variant.h" target="build\native\include\AST\Variant.h" />
+    <file src="..\idlfe\idlfe\src\include\IDL_FrontEnd.h" target="build\native\include\IDL_FrontEnd.h" />
+    <file src="..\Win32\Debug MD\decNumber.lib" target="build\native\lib\Win32\Debug\decNumber.lib" />
+    <file src="..\Win32\Debug\idlfe-1.0.lib" target="build\native\lib\Win32\Debug\idlfe-1.0.lib" />
+    <file src="..\Win32\Release MD\decNumber.lib" target="build\native\lib\Win32\Release\decNumber.lib" />
+    <file src="..\Win32\Release\idlfe-1.0.lib" target="build\native\lib\Win32\Release\idlfe-1.0.lib" />
+    <file src="..\x64\Debug MD\decNumber.lib" target="build\native\lib\x64\Debug\decNumber.lib" />
+    <file src="..\x64\Debug\idlfe-1.0.lib" target="build\native\lib\x64\Debug\idlfe-1.0.lib" />
+    <file src="..\x64\Release MD\decNumber.lib" target="build\native\lib\x64\Release\decNumber.lib" />
+    <file src="..\x64\Release\idlfe-1.0.lib" target="build\native\lib\x64\Release\idlfe-1.0.lib" />
+    <file src="default-propertiesui.xml" target="build\native\default-propertiesui.xml" />
+    <file src="idlfe.targets" target="build\native\nirvanaos.idlfe.vc.targets" />
+    <file src="configurations.autopkg" target="build\configurations.autopkg" />
+  </files>
+</package>

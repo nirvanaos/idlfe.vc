@@ -255,6 +255,7 @@
     </Bison>
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\readme.md" />
     <None Include="idlfe\readme.md" />
   </ItemGroup>
 </Project>

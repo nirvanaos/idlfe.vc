@@ -7,7 +7,7 @@
     <authors>Igor Popov</authors>
     <owners>Igor Popov</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-<!--    <license>LGPL</license>-->
+    <license type="expression">LGPL-3.0-or-later</license>
     <projectUrl>https://github.com/nirvanaos/idlfe/</projectUrl>
     <description>This library is intended for the easy creation of the CORBA IDL compilers.</description>
     <summary>CORBA IDL compiler front-end library</summary>

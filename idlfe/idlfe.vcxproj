@@ -79,6 +79,7 @@
     <ClCompile Include="idlfe\src\AST\Container.cpp" />
     <ClCompile Include="idlfe\src\AST\Identifier.cpp" />
     <ClCompile Include="idlfe\src\AST\Interface.cpp" />
+    <ClCompile Include="idlfe\src\AST\Item.cpp" />
     <ClCompile Include="idlfe\src\AST\ItemScope.cpp" />
     <ClCompile Include="idlfe\src\AST\NamedItem.cpp" />
     <ClCompile Include="idlfe\src\AST\RepositoryId.cpp" />

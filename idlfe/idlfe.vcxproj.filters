@@ -52,7 +52,7 @@
     <ClInclude Include="idlfe\src\include\AST\Array.h">
       <Filter>AST\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="idlfe\src\include\AST\AST.h">
+    <ClInclude Include="idlfe\src\include\AST\Root.h">
       <Filter>AST\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="idlfe\src\include\AST\Attribute.h">
@@ -210,7 +210,7 @@
     <ClCompile Include="idlfe\src\AST\Builder\EvalString.cpp">
       <Filter>AST\Source Files\Builder</Filter>
     </ClCompile>
-    <ClCompile Include="idlfe\src\AST\AST.cpp">
+    <ClCompile Include="idlfe\src\AST\Root.cpp">
       <Filter>AST\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="idlfe\src\AST\Container.cpp">

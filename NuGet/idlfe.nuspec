@@ -17,7 +17,7 @@
   </metadata>
   <files>
     <file src="..\idlfe\idlfe\src\include\AST\Array.h" target="build\native\include\AST\Array.h" />
-    <file src="..\idlfe\idlfe\src\include\AST\AST.h" target="build\native\include\AST\AST.h" />
+    <file src="..\idlfe\idlfe\src\include\AST\Root.h" target="build\native\include\AST\Root.h" />
     <file src="..\idlfe\idlfe\src\include\AST\Attribute.h" target="build\native\include\AST\Attribute.h" />
     <file src="..\idlfe\idlfe\src\include\AST\BasicType.h" target="build\native\include\AST\BasicType.h" />
     <file src="..\idlfe\idlfe\src\include\AST\CodeGen.h" target="build\native\include\AST\CodeGen.h" />

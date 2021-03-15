@@ -33,7 +33,7 @@
     <ClInclude Include="idlfe\src\FE\location.hh" />
     <ClInclude Include="idlfe\src\FE\yacc.tab.h" />
     <ClInclude Include="idlfe\src\include\AST\Array.h" />
-    <ClInclude Include="idlfe\src\include\AST\AST.h" />
+    <ClInclude Include="idlfe\src\include\AST\Root.h" />
     <ClInclude Include="idlfe\src\include\AST\Attribute.h" />
     <ClInclude Include="idlfe\src\include\AST\BasicType.h" />
     <ClInclude Include="idlfe\src\include\AST\CodeGen.h" />
@@ -68,7 +68,7 @@
     <ClInclude Include="idlfe\src\simplecpp\simplecpp.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="idlfe\src\AST\AST.cpp" />
+    <ClCompile Include="idlfe\src\AST\Root.cpp" />
     <ClCompile Include="idlfe\src\AST\Builder\Builder.cpp" />
     <ClCompile Include="idlfe\src\AST\Builder\Eval.cpp" />
     <ClCompile Include="idlfe\src\AST\Builder\EvalEnum.cpp" />

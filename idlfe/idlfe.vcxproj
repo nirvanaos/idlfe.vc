@@ -63,6 +63,7 @@
     <ClInclude Include="idlfe\src\include\AST\Type.h" />
     <ClInclude Include="idlfe\src\include\AST\TypeDef.h" />
     <ClInclude Include="idlfe\src\include\AST\Union.h" />
+    <ClInclude Include="idlfe\src\include\AST\ValueType.h" />
     <ClInclude Include="idlfe\src\include\AST\Variant.h" />
     <ClInclude Include="idlfe\src\include\IDL_FrontEnd.h" />
     <ClInclude Include="idlfe\src\simplecpp\simplecpp.h" />

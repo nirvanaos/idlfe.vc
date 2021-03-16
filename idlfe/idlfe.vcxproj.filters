@@ -178,6 +178,9 @@
     <ClInclude Include="idlfe\src\include\AST\Identifier.h">
       <Filter>AST\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\ValueType.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="idlfe\src\IDL_FrontEnd.cpp">

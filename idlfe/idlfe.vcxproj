@@ -33,6 +33,7 @@
     <ClInclude Include="idlfe\src\FE\location.hh" />
     <ClInclude Include="idlfe\src\FE\yacc.tab.h" />
     <ClInclude Include="idlfe\src\include\AST\Array.h" />
+    <ClInclude Include="idlfe\src\include\AST\OperationBase.h" />
     <ClInclude Include="idlfe\src\include\AST\Root.h" />
     <ClInclude Include="idlfe\src\include\AST\Attribute.h" />
     <ClInclude Include="idlfe\src\include\AST\BasicType.h" />
@@ -63,6 +64,9 @@
     <ClInclude Include="idlfe\src\include\AST\Type.h" />
     <ClInclude Include="idlfe\src\include\AST\TypeDef.h" />
     <ClInclude Include="idlfe\src\include\AST\Union.h" />
+    <ClInclude Include="idlfe\src\include\AST\UnionElement.h" />
+    <ClInclude Include="idlfe\src\include\AST\StateMember.h" />
+    <ClInclude Include="idlfe\src\include\AST\ValueFactory.h" />
     <ClInclude Include="idlfe\src\include\AST\ValueType.h" />
     <ClInclude Include="idlfe\src\include\AST\Variant.h" />
     <ClInclude Include="idlfe\src\include\IDL_FrontEnd.h" />

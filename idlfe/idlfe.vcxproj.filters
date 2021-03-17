@@ -181,6 +181,18 @@
     <ClInclude Include="idlfe\src\include\AST\ValueType.h">
       <Filter>AST\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\StateMember.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\UnionElement.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\ValueFactory.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\OperationBase.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="idlfe\src\IDL_FrontEnd.cpp">

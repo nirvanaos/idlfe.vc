@@ -91,6 +91,7 @@
     <ClCompile Include="idlfe\src\AST\ScopedName.cpp" />
     <ClCompile Include="idlfe\src\AST\Symbols.cpp" />
     <ClCompile Include="idlfe\src\AST\Type.cpp" />
+    <ClCompile Include="idlfe\src\AST\ValueType.cpp" />
     <ClCompile Include="idlfe\src\AST\Variant.cpp" />
     <ClCompile Include="idlfe\src\FE\Driver.cpp" />
     <ClCompile Include="idlfe\src\FE\scanner.flex.cpp" />

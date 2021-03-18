@@ -66,6 +66,7 @@
     <ClInclude Include="idlfe\src\include\AST\Union.h" />
     <ClInclude Include="idlfe\src\include\AST\UnionElement.h" />
     <ClInclude Include="idlfe\src\include\AST\StateMember.h" />
+    <ClInclude Include="idlfe\src\include\AST\ValueBox.h" />
     <ClInclude Include="idlfe\src\include\AST\ValueFactory.h" />
     <ClInclude Include="idlfe\src\include\AST\ValueType.h" />
     <ClInclude Include="idlfe\src\include\AST\Variant.h" />

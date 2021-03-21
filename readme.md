@@ -4,7 +4,7 @@ See https://github.com/nirvanaos/idlfe.git
 
 ## How to use
 
-Install nirvanaos.idlfe NuGet package.
+Install nirvanaos.idlfe.vc.1.0.0 NuGet package.
 
 ## How to build
 

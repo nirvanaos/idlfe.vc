@@ -17,7 +17,6 @@
   </metadata>
   <files>
     <file src="..\idlfe\idlfe\src\include\AST\Array.h" target="build\native\include\AST\Array.h" />
-    <file src="..\idlfe\idlfe\src\include\AST\Root.h" target="build\native\include\AST\Root.h" />
     <file src="..\idlfe\idlfe\src\include\AST\Attribute.h" target="build\native\include\AST\Attribute.h" />
     <file src="..\idlfe\idlfe\src\include\AST\BasicType.h" target="build\native\include\AST\BasicType.h" />
     <file src="..\idlfe\idlfe\src\include\AST\CodeGen.h" target="build\native\include\AST\CodeGen.h" />
@@ -26,6 +25,7 @@
     <file src="..\idlfe\idlfe\src\include\AST\Enum.h" target="build\native\include\AST\Enum.h" />
     <file src="..\idlfe\idlfe\src\include\AST\Exception.h" target="build\native\include\AST\Exception.h" />
     <file src="..\idlfe\idlfe\src\include\AST\Fixed.h" target="build\native\include\AST\Fixed.h" />
+    <file src="..\idlfe\idlfe\src\include\AST\Identifier.h" target="build\native\include\AST\Identifier.h" />
     <file src="..\idlfe\idlfe\src\include\AST\Include.h" target="build\native\include\AST\Include.h" />
     <file src="..\idlfe\idlfe\src\include\AST\Interface.h" target="build\native\include\AST\Interface.h" />
     <file src="..\idlfe\idlfe\src\include\AST\Item.h" target="build\native\include\AST\Item.h" />
@@ -37,15 +37,22 @@
     <file src="..\idlfe\idlfe\src\include\AST\NamedItem.h" target="build\native\include\AST\NamedItem.h" />
     <file src="..\idlfe\idlfe\src\include\AST\Native.h" target="build\native\include\AST\Native.h" />
     <file src="..\idlfe\idlfe\src\include\AST\Operation.h" target="build\native\include\AST\Operation.h" />
+    <file src="..\idlfe\idlfe\src\include\AST\OperationBase.h" target="build\native\include\AST\OperationBase.h" />
     <file src="..\idlfe\idlfe\src\include\AST\Parameter.h" target="build\native\include\AST\Parameter.h" />
     <file src="..\idlfe\idlfe\src\include\AST\RepositoryId.h" target="build\native\include\AST\RepositoryId.h" />
+    <file src="..\idlfe\idlfe\src\include\AST\Root.h" target="build\native\include\AST\Root.h" />
     <file src="..\idlfe\idlfe\src\include\AST\ScopedName.h" target="build\native\include\AST\ScopedName.h" />
     <file src="..\idlfe\idlfe\src\include\AST\Sequence.h" target="build\native\include\AST\Sequence.h" />
+    <file src="..\idlfe\idlfe\src\include\AST\StateMember.h" target="build\native\include\AST\StateMember.h" />
     <file src="..\idlfe\idlfe\src\include\AST\Struct.h" target="build\native\include\AST\Struct.h" />
     <file src="..\idlfe\idlfe\src\include\AST\Symbols.h" target="build\native\include\AST\Symbols.h" />
     <file src="..\idlfe\idlfe\src\include\AST\Type.h" target="build\native\include\AST\Type.h" />
     <file src="..\idlfe\idlfe\src\include\AST\TypeDef.h" target="build\native\include\AST\TypeDef.h" />
     <file src="..\idlfe\idlfe\src\include\AST\Union.h" target="build\native\include\AST\Union.h" />
+    <file src="..\idlfe\idlfe\src\include\AST\UnionElement.h" target="build\native\include\AST\UnionElement.h" />
+    <file src="..\idlfe\idlfe\src\include\AST\ValueBox.h" target="build\native\include\AST\ValueBox.h" />
+    <file src="..\idlfe\idlfe\src\include\AST\ValueFactory.h" target="build\native\include\AST\ValueFactory.h" />
+    <file src="..\idlfe\idlfe\src\include\AST\ValueType.h" target="build\native\include\AST\ValueType.h" />
     <file src="..\idlfe\idlfe\src\include\AST\Variant.h" target="build\native\include\AST\Variant.h" />
     <file src="..\idlfe\idlfe\src\include\IDL_FrontEnd.h" target="build\native\include\IDL_FrontEnd.h" />
     <file src="..\Win32\Debug MD\decNumber.lib" target="build\native\lib\Win32\Debug\decNumber.lib" />

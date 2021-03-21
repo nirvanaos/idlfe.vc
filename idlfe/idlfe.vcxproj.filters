@@ -22,9 +22,6 @@
     <Filter Include="AST\Source Files">
       <UniqueIdentifier>{07717370-7dbf-490c-a666-6994171c8612}</UniqueIdentifier>
     </Filter>
-    <Filter Include="AST\Source Files\Builder">
-      <UniqueIdentifier>{d12701e8-0ee7-46f0-9c46-8dc02b216180}</UniqueIdentifier>
-    </Filter>
     <Filter Include="FE">
       <UniqueIdentifier>{7b8cd483-92ed-47b5-806a-c1945c40895f}</UniqueIdentifier>
     </Filter>
@@ -34,6 +31,9 @@
     </Filter>
     <Filter Include="simplecpp">
       <UniqueIdentifier>{927e05c6-d35d-404f-a62a-452f3add7269}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AST\Source Files\Build">
+      <UniqueIdentifier>{d12701e8-0ee7-46f0-9c46-8dc02b216180}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -52,7 +52,7 @@
     <ClInclude Include="idlfe\src\include\AST\Array.h">
       <Filter>AST\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="idlfe\src\include\AST\AST.h">
+    <ClInclude Include="idlfe\src\include\AST\Root.h">
       <Filter>AST\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="idlfe\src\include\AST\Attribute.h">
@@ -143,37 +143,58 @@
       <Filter>AST\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="idlfe\src\AST\Builder\Builder.h">
-      <Filter>AST\Source Files\Builder</Filter>
+      <Filter>AST\Source Files\Build</Filter>
     </ClInclude>
     <ClInclude Include="idlfe\src\AST\Builder\Declarators.h">
-      <Filter>AST\Source Files\Builder</Filter>
+      <Filter>AST\Source Files\Build</Filter>
     </ClInclude>
     <ClInclude Include="idlfe\src\AST\Builder\decNumber.h">
-      <Filter>AST\Source Files\Builder</Filter>
+      <Filter>AST\Source Files\Build</Filter>
     </ClInclude>
     <ClInclude Include="idlfe\src\AST\Builder\Eval.h">
-      <Filter>AST\Source Files\Builder</Filter>
+      <Filter>AST\Source Files\Build</Filter>
     </ClInclude>
     <ClInclude Include="idlfe\src\AST\Builder\EvalEnum.h">
-      <Filter>AST\Source Files\Builder</Filter>
+      <Filter>AST\Source Files\Build</Filter>
     </ClInclude>
     <ClInclude Include="idlfe\src\AST\Builder\EvalFixed.h">
-      <Filter>AST\Source Files\Builder</Filter>
+      <Filter>AST\Source Files\Build</Filter>
     </ClInclude>
     <ClInclude Include="idlfe\src\AST\Builder\EvalFloatingPoint.h">
-      <Filter>AST\Source Files\Builder</Filter>
+      <Filter>AST\Source Files\Build</Filter>
     </ClInclude>
     <ClInclude Include="idlfe\src\AST\Builder\EvalIntegral.h">
-      <Filter>AST\Source Files\Builder</Filter>
+      <Filter>AST\Source Files\Build</Filter>
     </ClInclude>
     <ClInclude Include="idlfe\src\AST\Builder\EvalString.h">
-      <Filter>AST\Source Files\Builder</Filter>
+      <Filter>AST\Source Files\Build</Filter>
     </ClInclude>
     <ClInclude Include="idlfe\src\FE\location.hh">
       <Filter>FE\Generated Files</Filter>
     </ClInclude>
     <ClInclude Include="idlfe\src\FE\yacc.tab.h">
       <Filter>FE\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\Identifier.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\ValueType.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\StateMember.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\UnionElement.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\ValueFactory.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\OperationBase.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\ValueBox.h">
+      <Filter>AST\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -187,27 +208,27 @@
       <Filter>FE</Filter>
     </ClCompile>
     <ClCompile Include="idlfe\src\AST\Builder\Builder.cpp">
-      <Filter>AST\Source Files\Builder</Filter>
+      <Filter>AST\Source Files\Build</Filter>
     </ClCompile>
     <ClCompile Include="idlfe\src\AST\Builder\Eval.cpp">
-      <Filter>AST\Source Files\Builder</Filter>
+      <Filter>AST\Source Files\Build</Filter>
     </ClCompile>
     <ClCompile Include="idlfe\src\AST\Builder\EvalEnum.cpp">
-      <Filter>AST\Source Files\Builder</Filter>
+      <Filter>AST\Source Files\Build</Filter>
     </ClCompile>
     <ClCompile Include="idlfe\src\AST\Builder\EvalFixed.cpp">
-      <Filter>AST\Source Files\Builder</Filter>
+      <Filter>AST\Source Files\Build</Filter>
     </ClCompile>
     <ClCompile Include="idlfe\src\AST\Builder\EvalFloatingPoint.cpp">
-      <Filter>AST\Source Files\Builder</Filter>
+      <Filter>AST\Source Files\Build</Filter>
     </ClCompile>
     <ClCompile Include="idlfe\src\AST\Builder\EvalIntegral.cpp">
-      <Filter>AST\Source Files\Builder</Filter>
+      <Filter>AST\Source Files\Build</Filter>
     </ClCompile>
     <ClCompile Include="idlfe\src\AST\Builder\EvalString.cpp">
-      <Filter>AST\Source Files\Builder</Filter>
+      <Filter>AST\Source Files\Build</Filter>
     </ClCompile>
-    <ClCompile Include="idlfe\src\AST\AST.cpp">
+    <ClCompile Include="idlfe\src\AST\Root.cpp">
       <Filter>AST\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="idlfe\src\AST\Container.cpp">
@@ -243,6 +264,15 @@
     <ClCompile Include="idlfe\src\FE\yacc.tab.cpp">
       <Filter>FE\Generated Files</Filter>
     </ClCompile>
+    <ClCompile Include="idlfe\src\AST\Identifier.cpp">
+      <Filter>AST\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="idlfe\src\AST\Item.cpp">
+      <Filter>AST\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="idlfe\src\AST\ValueType.cpp">
+      <Filter>AST\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Flex Include="idlfe\src\FE\scanner.ll">
@@ -255,6 +285,7 @@
     </Bison>
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\readme.md" />
     <None Include="idlfe\readme.md" />
   </ItemGroup>
 </Project>

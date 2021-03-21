@@ -7,7 +7,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "idlprint", "idlprint\idlpri
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "decNumber", "decNumber.vc\decNumber.vcxproj", "{1B176788-050F-47CE-81D7-5F128F8A7688}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "idlfe", "idlfe\idlfe.vcxproj", "{807964A4-597C-45ED-A01A-10607BF44F90}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "idlfe-1.0", "idlfe\idlfe.vcxproj", "{807964A4-597C-45ED-A01A-10607BF44F90}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet", "NuGet", "{844B475D-4DA6-4FEB-AF11-40F3144D45B8}"
+	ProjectSection(SolutionItems) = preProject
+		NuGet\idlfe.nuspec = NuGet\idlfe.nuspec
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

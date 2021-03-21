@@ -33,7 +33,8 @@
     <ClInclude Include="idlfe\src\FE\location.hh" />
     <ClInclude Include="idlfe\src\FE\yacc.tab.h" />
     <ClInclude Include="idlfe\src\include\AST\Array.h" />
-    <ClInclude Include="idlfe\src\include\AST\AST.h" />
+    <ClInclude Include="idlfe\src\include\AST\OperationBase.h" />
+    <ClInclude Include="idlfe\src\include\AST\Root.h" />
     <ClInclude Include="idlfe\src\include\AST\Attribute.h" />
     <ClInclude Include="idlfe\src\include\AST\BasicType.h" />
     <ClInclude Include="idlfe\src\include\AST\CodeGen.h" />
@@ -42,6 +43,7 @@
     <ClInclude Include="idlfe\src\include\AST\Enum.h" />
     <ClInclude Include="idlfe\src\include\AST\Exception.h" />
     <ClInclude Include="idlfe\src\include\AST\Fixed.h" />
+    <ClInclude Include="idlfe\src\include\AST\Identifier.h" />
     <ClInclude Include="idlfe\src\include\AST\Include.h" />
     <ClInclude Include="idlfe\src\include\AST\Interface.h" />
     <ClInclude Include="idlfe\src\include\AST\Item.h" />
@@ -62,12 +64,17 @@
     <ClInclude Include="idlfe\src\include\AST\Type.h" />
     <ClInclude Include="idlfe\src\include\AST\TypeDef.h" />
     <ClInclude Include="idlfe\src\include\AST\Union.h" />
+    <ClInclude Include="idlfe\src\include\AST\UnionElement.h" />
+    <ClInclude Include="idlfe\src\include\AST\StateMember.h" />
+    <ClInclude Include="idlfe\src\include\AST\ValueBox.h" />
+    <ClInclude Include="idlfe\src\include\AST\ValueFactory.h" />
+    <ClInclude Include="idlfe\src\include\AST\ValueType.h" />
     <ClInclude Include="idlfe\src\include\AST\Variant.h" />
     <ClInclude Include="idlfe\src\include\IDL_FrontEnd.h" />
     <ClInclude Include="idlfe\src\simplecpp\simplecpp.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="idlfe\src\AST\AST.cpp" />
+    <ClCompile Include="idlfe\src\AST\Root.cpp" />
     <ClCompile Include="idlfe\src\AST\Builder\Builder.cpp" />
     <ClCompile Include="idlfe\src\AST\Builder\Eval.cpp" />
     <ClCompile Include="idlfe\src\AST\Builder\EvalEnum.cpp" />
@@ -76,13 +83,16 @@
     <ClCompile Include="idlfe\src\AST\Builder\EvalIntegral.cpp" />
     <ClCompile Include="idlfe\src\AST\Builder\EvalString.cpp" />
     <ClCompile Include="idlfe\src\AST\Container.cpp" />
+    <ClCompile Include="idlfe\src\AST\Identifier.cpp" />
     <ClCompile Include="idlfe\src\AST\Interface.cpp" />
+    <ClCompile Include="idlfe\src\AST\Item.cpp" />
     <ClCompile Include="idlfe\src\AST\ItemScope.cpp" />
     <ClCompile Include="idlfe\src\AST\NamedItem.cpp" />
     <ClCompile Include="idlfe\src\AST\RepositoryId.cpp" />
     <ClCompile Include="idlfe\src\AST\ScopedName.cpp" />
     <ClCompile Include="idlfe\src\AST\Symbols.cpp" />
     <ClCompile Include="idlfe\src\AST\Type.cpp" />
+    <ClCompile Include="idlfe\src\AST\ValueType.cpp" />
     <ClCompile Include="idlfe\src\AST\Variant.cpp" />
     <ClCompile Include="idlfe\src\FE\Driver.cpp" />
     <ClCompile Include="idlfe\src\FE\scanner.flex.cpp" />
@@ -108,6 +118,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\readme.md" />
     <None Include="idlfe\readme.md" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -116,6 +127,7 @@
     <ProjectGuid>{807964a4-597c-45ed-a01a-10607bf44f90}</ProjectGuid>
     <RootNamespace>NIDLFE</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>idlfe-1.0</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -191,6 +203,7 @@
       <LanguageStandard>stdcpp17</LanguageStandard>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
     </ClCompile>
     <Link>
       <SubSystem>
@@ -233,6 +246,7 @@
       <LanguageStandard>stdcpp17</LanguageStandard>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
     </ClCompile>
     <Link>
       <SubSystem>

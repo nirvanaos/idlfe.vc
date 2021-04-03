@@ -70,6 +70,7 @@
     <ClInclude Include="idlfe\src\include\AST\ValueFactory.h" />
     <ClInclude Include="idlfe\src\include\AST\ValueType.h" />
     <ClInclude Include="idlfe\src\include\AST\Variant.h" />
+    <ClInclude Include="idlfe\src\include\BE\IndentedOut.h" />
     <ClInclude Include="idlfe\src\include\IDL_FrontEnd.h" />
     <ClInclude Include="idlfe\src\simplecpp\simplecpp.h" />
   </ItemGroup>
@@ -94,6 +95,7 @@
     <ClCompile Include="idlfe\src\AST\Type.cpp" />
     <ClCompile Include="idlfe\src\AST\ValueType.cpp" />
     <ClCompile Include="idlfe\src\AST\Variant.cpp" />
+    <ClCompile Include="idlfe\src\BE\IndentedOut.cpp" />
     <ClCompile Include="idlfe\src\FE\Driver.cpp" />
     <ClCompile Include="idlfe\src\FE\scanner.flex.cpp" />
     <ClCompile Include="idlfe\src\FE\yacc.tab.cpp" />
@@ -119,6 +121,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\readme.md" />
+    <None Include="idlfe\changelog.md" />
     <None Include="idlfe\readme.md" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -127,7 +130,7 @@
     <ProjectGuid>{807964a4-597c-45ed-a01a-10607bf44f90}</ProjectGuid>
     <RootNamespace>NIDLFE</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>idlfe-1.0</ProjectName>
+    <ProjectName>idlfe-1.1</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

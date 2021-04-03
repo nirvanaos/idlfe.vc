@@ -35,6 +35,15 @@
     <Filter Include="AST\Source Files\Build">
       <UniqueIdentifier>{d12701e8-0ee7-46f0-9c46-8dc02b216180}</UniqueIdentifier>
     </Filter>
+    <Filter Include="BE">
+      <UniqueIdentifier>{725c64ae-eba2-4209-a790-9bba274581c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BE\Header Files">
+      <UniqueIdentifier>{3a7601d0-a9e0-4839-8d8c-8b567a8f7ded}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BE\Source Files">
+      <UniqueIdentifier>{36c877ac-6764-4bcf-b714-7df49df13958}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="idlfe\src\simplecpp\simplecpp.h">
@@ -196,6 +205,9 @@
     <ClInclude Include="idlfe\src\include\AST\ValueBox.h">
       <Filter>AST\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="idlfe\src\include\BE\IndentedOut.h">
+      <Filter>BE\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="idlfe\src\IDL_FrontEnd.cpp">
@@ -273,6 +285,9 @@
     <ClCompile Include="idlfe\src\AST\ValueType.cpp">
       <Filter>AST\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="idlfe\src\BE\IndentedOut.cpp">
+      <Filter>BE\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Flex Include="idlfe\src\FE\scanner.ll">
@@ -287,5 +302,6 @@
   <ItemGroup>
     <None Include="..\readme.md" />
     <None Include="idlfe\readme.md" />
+    <None Include="idlfe\changelog.md" />
   </ItemGroup>
 </Project>

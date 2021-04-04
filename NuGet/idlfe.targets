@@ -6,22 +6,22 @@
   </PropertyGroup>
   <ItemDefinitionGroup Label="Win32 and Debug" Condition="'$(Platform.ToLower())' == 'win32' And ( $(Configuration.ToLower().IndexOf('debug')) &gt; -1 )">
     <Link>
-      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/Win32\Debug\decNumber.lib;$(MSBuildThisFileDirectory)../..//build/native/lib/Win32\Debug\idlfe-1.0.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/Win32\Debug\decNumber.lib;$(MSBuildThisFileDirectory)../..//build/native/lib/Win32\Debug\idlfe-1.1.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Label="Win32 and Release" Condition="'$(Platform.ToLower())' == 'win32' And ( $(Configuration.ToLower().IndexOf('debug')) == -1 )">
     <Link>
-      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/Win32\Release\decNumber.lib;$(MSBuildThisFileDirectory)../..//build/native/lib/Win32\Release\idlfe-1.0.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/Win32\Release\decNumber.lib;$(MSBuildThisFileDirectory)../..//build/native/lib/Win32\Release\idlfe-1.1.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Label="x64 and Debug" Condition="'$(Platform.ToLower())' == 'x64' And ( $(Configuration.ToLower().IndexOf('debug')) &gt; -1 )">
     <Link>
-      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/x64\Debug\decNumber.lib;$(MSBuildThisFileDirectory)../..//build/native/lib/x64\Debug\idlfe-1.0.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/x64\Debug\decNumber.lib;$(MSBuildThisFileDirectory)../..//build/native/lib/x64\Debug\idlfe-1.1.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Label="x64 and Release" Condition="'$(Platform.ToLower())' == 'x64' And ( $(Configuration.ToLower().IndexOf('debug')) == -1 )">
     <Link>
-      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/x64\Release\decNumber.lib;$(MSBuildThisFileDirectory)../..//build/native/lib/x64\Release\idlfe-1.0.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/x64\Release\decNumber.lib;$(MSBuildThisFileDirectory)../..//build/native/lib/x64\Release\idlfe-1.1.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup>

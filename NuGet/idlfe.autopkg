@@ -1,7 +1,7 @@
 nuget {
 	nuspec {
 		id = nirvanaos.idlfe.vc;
-		version: 1.0.0;
+		version: 1.1.0;
 		title: IDL front-end library;
 		authors: Igor Popov;
 		owners: Igor Popov;
@@ -23,7 +23,7 @@ nuget {
 	files{
 		#defines{
 			SRC = ..\idlfe\idlfe\src\;
-			LIBNAME = idlfe-1.0;
+			LIBNAME = idlfe-1.1;
 		}
 
 		nestedinclude: {

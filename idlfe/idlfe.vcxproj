@@ -75,6 +75,7 @@
     <ClInclude Include="idlfe\src\simplecpp\simplecpp.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="idlfe\src\AST\Member.cpp" />
     <ClCompile Include="idlfe\src\AST\Root.cpp" />
     <ClCompile Include="idlfe\src\AST\Builder\Builder.cpp" />
     <ClCompile Include="idlfe\src\AST\Builder\Eval.cpp" />
@@ -130,7 +131,7 @@
     <ProjectGuid>{807964a4-597c-45ed-a01a-10607bf44f90}</ProjectGuid>
     <RootNamespace>NIDLFE</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>idlfe-1.1</ProjectName>
+    <ProjectName>idlfe-1.2</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

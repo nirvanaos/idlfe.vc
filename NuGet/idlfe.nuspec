@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
 	<metadata>
 		<id>nirvanaos.idlfe.vc</id>
-		<version>1.3.3</version>
+		<version>1.4.0</version>
 		<title>IDL front-end library</title>
 		<authors>Igor Popov</authors>
 		<owners>Igor Popov</owners>
@@ -25,6 +25,7 @@
 		<file src="..\idlfe\idlfe\src\include\AST\Enum.h" target="build\native\include\AST\Enum.h" />
 		<file src="..\idlfe\idlfe\src\include\AST\Exception.h" target="build\native\include\AST\Exception.h" />
 		<file src="..\idlfe\idlfe\src\include\AST\Fixed.h" target="build\native\include\AST\Fixed.h" />
+		<file src="..\idlfe\idlfe\src\include\AST\ForwardDeclarable.h" target="build\native\include\AST\ForwardDeclarable.h" />
 		<file src="..\idlfe\idlfe\src\include\AST\Identifier.h" target="build\native\include\AST\Identifier.h" />
 		<file src="..\idlfe\idlfe\src\include\AST\Include.h" target="build\native\include\AST\Include.h" />
 		<file src="..\idlfe\idlfe\src\include\AST\Interface.h" target="build\native\include\AST\Interface.h" />
@@ -57,13 +58,13 @@
 		<file src="..\idlfe\idlfe\src\include\IDL_FrontEnd.h" target="build\native\include\IDL_FrontEnd.h" />
 		<file src="..\idlfe\idlfe\src\include\BE\IndentedOut.h" target="build\native\include\BE\IndentedOut.h" />
 		<file src="..\Win32\Debug MD\decNumber.lib" target="build\native\lib\Win32\Debug\decNumber.lib" />
-		<file src="..\Win32\Debug\idlfe-1.3.lib" target="build\native\lib\Win32\Debug\idlfe-1.3.lib" />
+		<file src="..\Win32\Debug\idlfe-1.4.lib" target="build\native\lib\Win32\Debug\idlfe-1.4.lib" />
 		<file src="..\Win32\Release MD\decNumber.lib" target="build\native\lib\Win32\Release\decNumber.lib" />
-		<file src="..\Win32\Release\idlfe-1.3.lib" target="build\native\lib\Win32\Release\idlfe-1.3.lib" />
+		<file src="..\Win32\Release\idlfe-1.4.lib" target="build\native\lib\Win32\Release\idlfe-1.4.lib" />
 		<file src="..\x64\Debug MD\decNumber.lib" target="build\native\lib\x64\Debug\decNumber.lib" />
-		<file src="..\x64\Debug\idlfe-1.3.lib" target="build\native\lib\x64\Debug\idlfe-1.3.lib" />
+		<file src="..\x64\Debug\idlfe-1.4.lib" target="build\native\lib\x64\Debug\idlfe-1.4.lib" />
 		<file src="..\x64\Release MD\decNumber.lib" target="build\native\lib\x64\Release\decNumber.lib" />
-		<file src="..\x64\Release\idlfe-1.3.lib" target="build\native\lib\x64\Release\idlfe-1.3.lib" />
+		<file src="..\x64\Release\idlfe-1.4.lib" target="build\native\lib\x64\Release\idlfe-1.4.lib" />
 		<file src="default-propertiesui.xml" target="build\native\default-propertiesui.xml" />
 		<file src="idlfe.targets" target="build\native\nirvanaos.idlfe.vc.targets" />
 		<file src="configurations.autopkg" target="build\configurations.autopkg" />

@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
 	<metadata>
 		<id>nirvanaos.idlfe.vc</id>
-		<version>1.4.8</version>
+		<version>1.5.0</version>
 		<title>IDL front-end library</title>
 		<authors>Igor Popov</authors>
 		<owners>Igor Popov</owners>
@@ -12,7 +12,7 @@
 		<description>This library is intended for the easy creation of the CORBA IDL compilers.</description>
 		<summary>CORBA IDL compiler front-end library</summary>
 		<releaseNotes>https://github.com/nirvanaos/idlfe/blob/master/changelog.md</releaseNotes>
-		<copyright>Copyright 2021</copyright>
+		<copyright>Copyright 2022</copyright>
 		<tags>native CORBA IDL compiler front-end nativepackage</tags>
 	</metadata>
 	<files>
@@ -58,13 +58,13 @@
 		<file src="..\idlfe\idlfe\src\include\IDL_FrontEnd.h" target="build\native\include\IDL_FrontEnd.h" />
 		<file src="..\idlfe\idlfe\src\include\BE\IndentedOut.h" target="build\native\include\BE\IndentedOut.h" />
 		<file src="..\Win32\Debug MD\decNumber.lib" target="build\native\lib\Win32\Debug\decNumber.lib" />
-		<file src="..\Win32\Debug\idlfe-1.4.lib" target="build\native\lib\Win32\Debug\idlfe-1.4.lib" />
+		<file src="..\Win32\Debug\idlfe-1.5.lib" target="build\native\lib\Win32\Debug\idlfe-1.5.lib" />
 		<file src="..\Win32\Release MD\decNumber.lib" target="build\native\lib\Win32\Release\decNumber.lib" />
-		<file src="..\Win32\Release\idlfe-1.4.lib" target="build\native\lib\Win32\Release\idlfe-1.4.lib" />
+		<file src="..\Win32\Release\idlfe-1.5.lib" target="build\native\lib\Win32\Release\idlfe-1.5.lib" />
 		<file src="..\x64\Debug MD\decNumber.lib" target="build\native\lib\x64\Debug\decNumber.lib" />
-		<file src="..\x64\Debug\idlfe-1.4.lib" target="build\native\lib\x64\Debug\idlfe-1.4.lib" />
+		<file src="..\x64\Debug\idlfe-1.5.lib" target="build\native\lib\x64\Debug\idlfe-1.5.lib" />
 		<file src="..\x64\Release MD\decNumber.lib" target="build\native\lib\x64\Release\decNumber.lib" />
-		<file src="..\x64\Release\idlfe-1.4.lib" target="build\native\lib\x64\Release\idlfe-1.4.lib" />
+		<file src="..\x64\Release\idlfe-1.5.lib" target="build\native\lib\x64\Release\idlfe-1.5.lib" />
 		<file src="default-propertiesui.xml" target="build\native\default-propertiesui.xml" />
 		<file src="idlfe.targets" target="build\native\nirvanaos.idlfe.vc.targets" />
 		<file src="configurations.autopkg" target="build\configurations.autopkg" />

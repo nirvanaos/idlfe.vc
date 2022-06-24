@@ -294,6 +294,9 @@
     <ClCompile Include="idlfe\src\AST\Member.cpp">
       <Filter>AST\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="idlfe\src\AST\Fixed.cpp">
+      <Filter>AST\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Flex Include="idlfe\src\FE\scanner.ll">

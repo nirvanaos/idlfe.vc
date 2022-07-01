@@ -49,6 +49,7 @@
     <ClInclude Include="idlfe\src\FE\location.hh" />
     <ClInclude Include="idlfe\src\FE\yacc.tab.h" />
     <ClInclude Include="idlfe\src\include\AST\Array.h" />
+    <ClInclude Include="idlfe\src\include\AST\ItemWithId.h" />
     <ClInclude Include="idlfe\src\include\AST\OperationBase.h" />
     <ClInclude Include="idlfe\src\include\AST\Root.h" />
     <ClInclude Include="idlfe\src\include\AST\Attribute.h" />
@@ -108,7 +109,7 @@
     <ClCompile Include="idlfe\src\AST\Item.cpp" />
     <ClCompile Include="idlfe\src\AST\ItemScope.cpp" />
     <ClCompile Include="idlfe\src\AST\NamedItem.cpp" />
-    <ClCompile Include="idlfe\src\AST\RepositoryId.cpp" />
+    <ClCompile Include="idlfe\src\AST\ItemWithId.cpp" />
     <ClCompile Include="idlfe\src\AST\ScopedName.cpp" />
     <ClCompile Include="idlfe\src\AST\Symbols.cpp" />
     <ClCompile Include="idlfe\src\AST\Type.cpp" />

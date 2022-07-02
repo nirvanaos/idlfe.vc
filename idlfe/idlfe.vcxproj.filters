@@ -97,7 +97,7 @@
     <ClInclude Include="idlfe\src\include\AST\Item.h">
       <Filter>AST\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="idlfe\src\include\AST\ItemContainer.h">
+    <ClInclude Include="idlfe\src\include\AST\IV_Base.h">
       <Filter>AST\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="idlfe\src\include\AST\ItemScope.h">

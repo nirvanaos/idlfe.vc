@@ -64,7 +64,7 @@
     <ClInclude Include="idlfe\src\include\AST\Include.h" />
     <ClInclude Include="idlfe\src\include\AST\Interface.h" />
     <ClInclude Include="idlfe\src\include\AST\Item.h" />
-    <ClInclude Include="idlfe\src\include\AST\ItemContainer.h" />
+    <ClInclude Include="idlfe\src\include\AST\IV_Base.h" />
     <ClInclude Include="idlfe\src\include\AST\ItemScope.h" />
     <ClInclude Include="idlfe\src\include\AST\Location.h" />
     <ClInclude Include="idlfe\src\include\AST\Member.h" />

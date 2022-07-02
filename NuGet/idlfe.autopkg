@@ -1,17 +1,17 @@
 nuget {
 	nuspec {
 		id = nirvanaos.idlfe.vc;
-		version: 1.4.1;
+		version: 2.0.0;
 		title: IDL front-end library;
 		authors: Igor Popov;
 		owners: Igor Popov;
 		license: LGPL
-		projectUrl: "https://github.com/nirvanaos/idlfe"
+		projectUrl: "https://github.com/nirvanaos/idlfe.vc/"
 		requireLicenseAcceptance: false;
 		summary: CORBA IDL compiler front-end library;
 		description: "This library is intended for the easy creation of the CORBA IDL compilers.";
-		releaseNotes: "";
-		copyright: Copyright (c) 2021;
+		releaseNotes: "https://github.com/nirvanaos/idlfe/blob/master/changelog.md";
+		copyright: Copyright (c) 2022;
 		tags: { native CORBA IDL compiler front-end };
 	};
 
@@ -23,7 +23,7 @@ nuget {
 	files{
 		#defines{
 			SRC = ..\idlfe\idlfe\src\;
-			LIBNAME = idlfe-1.4;
+			LIBNAME = idlfe-2.0;
 		}
 
 		nestedinclude: {

@@ -73,9 +73,9 @@
     <ClInclude Include="idlfe\src\include\AST\Native.h" />
     <ClInclude Include="idlfe\src\include\AST\Operation.h" />
     <ClInclude Include="idlfe\src\include\AST\Parameter.h" />
-    <ClInclude Include="idlfe\src\include\AST\RepositoryId.h" />
     <ClInclude Include="idlfe\src\include\AST\ScopedName.h" />
     <ClInclude Include="idlfe\src\include\AST\Sequence.h" />
+    <ClInclude Include="idlfe\src\include\AST\StructBase.h" />
     <ClInclude Include="idlfe\src\include\AST\Struct.h" />
     <ClInclude Include="idlfe\src\include\AST\Symbols.h" />
     <ClInclude Include="idlfe\src\include\AST\Type.h" />

@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
 	<metadata>
 		<id>nirvanaos.idlfe.vc</id>
-		<version>1.6.1</version>
+		<version>2.0.0</version>
 		<title>IDL front-end library</title>
 		<authors>Igor Popov</authors>
 		<owners>Igor Popov</owners>
@@ -40,7 +40,7 @@
 		<file src="..\idlfe\idlfe\src\include\AST\Operation.h" target="build\native\include\AST\Operation.h" />
 		<file src="..\idlfe\idlfe\src\include\AST\OperationBase.h" target="build\native\include\AST\OperationBase.h" />
 		<file src="..\idlfe\idlfe\src\include\AST\Parameter.h" target="build\native\include\AST\Parameter.h" />
-		<file src="..\idlfe\idlfe\src\include\AST\RepositoryId.h" target="build\native\include\AST\RepositoryId.h" />
+		<file src="..\idlfe\idlfe\src\include\AST\ItemWithId.h" target="build\native\include\AST\ItemWithId.h" />
 		<file src="..\idlfe\idlfe\src\include\AST\Root.h" target="build\native\include\AST\Root.h" />
 		<file src="..\idlfe\idlfe\src\include\AST\ScopedName.h" target="build\native\include\AST\ScopedName.h" />
 		<file src="..\idlfe\idlfe\src\include\AST\Sequence.h" target="build\native\include\AST\Sequence.h" />

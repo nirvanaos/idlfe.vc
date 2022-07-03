@@ -49,6 +49,7 @@
     <ClInclude Include="idlfe\src\FE\location.hh" />
     <ClInclude Include="idlfe\src\FE\yacc.tab.h" />
     <ClInclude Include="idlfe\src\include\AST\Array.h" />
+    <ClInclude Include="idlfe\src\include\AST\ItemWithId.h" />
     <ClInclude Include="idlfe\src\include\AST\OperationBase.h" />
     <ClInclude Include="idlfe\src\include\AST\Root.h" />
     <ClInclude Include="idlfe\src\include\AST\Attribute.h" />
@@ -63,7 +64,7 @@
     <ClInclude Include="idlfe\src\include\AST\Include.h" />
     <ClInclude Include="idlfe\src\include\AST\Interface.h" />
     <ClInclude Include="idlfe\src\include\AST\Item.h" />
-    <ClInclude Include="idlfe\src\include\AST\ItemContainer.h" />
+    <ClInclude Include="idlfe\src\include\AST\IV_Base.h" />
     <ClInclude Include="idlfe\src\include\AST\ItemScope.h" />
     <ClInclude Include="idlfe\src\include\AST\Location.h" />
     <ClInclude Include="idlfe\src\include\AST\Member.h" />
@@ -72,9 +73,9 @@
     <ClInclude Include="idlfe\src\include\AST\Native.h" />
     <ClInclude Include="idlfe\src\include\AST\Operation.h" />
     <ClInclude Include="idlfe\src\include\AST\Parameter.h" />
-    <ClInclude Include="idlfe\src\include\AST\RepositoryId.h" />
     <ClInclude Include="idlfe\src\include\AST\ScopedName.h" />
     <ClInclude Include="idlfe\src\include\AST\Sequence.h" />
+    <ClInclude Include="idlfe\src\include\AST\StructBase.h" />
     <ClInclude Include="idlfe\src\include\AST\Struct.h" />
     <ClInclude Include="idlfe\src\include\AST\Symbols.h" />
     <ClInclude Include="idlfe\src\include\AST\Type.h" />
@@ -108,7 +109,7 @@
     <ClCompile Include="idlfe\src\AST\Item.cpp" />
     <ClCompile Include="idlfe\src\AST\ItemScope.cpp" />
     <ClCompile Include="idlfe\src\AST\NamedItem.cpp" />
-    <ClCompile Include="idlfe\src\AST\RepositoryId.cpp" />
+    <ClCompile Include="idlfe\src\AST\ItemWithId.cpp" />
     <ClCompile Include="idlfe\src\AST\ScopedName.cpp" />
     <ClCompile Include="idlfe\src\AST\Symbols.cpp" />
     <ClCompile Include="idlfe\src\AST\Type.cpp" />
@@ -153,7 +154,7 @@
     <ProjectGuid>{807964a4-597c-45ed-a01a-10607bf44f90}</ProjectGuid>
     <RootNamespace>NIDLFE</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>idlfe-1.6</ProjectName>
+    <ProjectName>idlfe-2.0</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

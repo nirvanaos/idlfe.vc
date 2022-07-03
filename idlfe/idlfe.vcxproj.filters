@@ -97,7 +97,7 @@
     <ClInclude Include="idlfe\src\include\AST\Item.h">
       <Filter>AST\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="idlfe\src\include\AST\ItemContainer.h">
+    <ClInclude Include="idlfe\src\include\AST\IV_Base.h">
       <Filter>AST\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="idlfe\src\include\AST\ItemScope.h">
@@ -124,9 +124,6 @@
     <ClInclude Include="idlfe\src\include\AST\Parameter.h">
       <Filter>AST\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="idlfe\src\include\AST\RepositoryId.h">
-      <Filter>AST\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="idlfe\src\include\AST\ScopedName.h">
       <Filter>AST\Header Files</Filter>
     </ClInclude>
@@ -134,9 +131,6 @@
       <Filter>AST\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="idlfe\src\include\AST\Struct.h">
-      <Filter>AST\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="idlfe\src\include\AST\Symbols.h">
       <Filter>AST\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="idlfe\src\include\AST\Type.h">
@@ -211,6 +205,15 @@
     <ClInclude Include="idlfe\src\include\AST\ForwardDeclarable.h">
       <Filter>AST\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\ItemWithId.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\Symbols.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\StructBase.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="idlfe\src\IDL_FrontEnd.cpp">
@@ -258,13 +261,10 @@
     <ClCompile Include="idlfe\src\AST\NamedItem.cpp">
       <Filter>AST\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="idlfe\src\AST\RepositoryId.cpp">
+    <ClCompile Include="idlfe\src\AST\ItemWithId.cpp">
       <Filter>AST\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="idlfe\src\AST\ScopedName.cpp">
-      <Filter>AST\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="idlfe\src\AST\Symbols.cpp">
       <Filter>AST\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="idlfe\src\AST\Type.cpp">
@@ -295,6 +295,9 @@
       <Filter>AST\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="idlfe\src\AST\Fixed.cpp">
+      <Filter>AST\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="idlfe\src\AST\Symbols.cpp">
       <Filter>AST\Source Files</Filter>
     </ClCompile>
   </ItemGroup>

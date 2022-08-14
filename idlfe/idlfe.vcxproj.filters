@@ -214,6 +214,9 @@
     <ClInclude Include="idlfe\src\include\AST\StructBase.h">
       <Filter>AST\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="idlfe\src\include\BE\MessageOut.h">
+      <Filter>BE\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="idlfe\src\IDL_FrontEnd.cpp">
@@ -299,6 +302,9 @@
     </ClCompile>
     <ClCompile Include="idlfe\src\AST\Symbols.cpp">
       <Filter>AST\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="idlfe\src\BE\MessageOut.cpp">
+      <Filter>BE\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

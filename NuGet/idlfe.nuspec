@@ -12,10 +12,12 @@
     <description>This library is intended for the easy creation of the CORBA IDL compilers.</description>
     <summary>CORBA IDL compiler front-end library</summary>
     <releaseNotes>https://github.com/nirvanaos/idlfe/blob/master/changelog.md</releaseNotes>
-    <copyright>Copyright (c) 2022</copyright>
+    <copyright>Copyright (c) 2023</copyright>
     <tags>native CORBA IDL compiler front-end nativepackage</tags>
+    <readme>docs\readme.md</readme>
   </metadata>
   <files>
+    <file src="..\idlfe\idlfe\readme.md" target="docs\" />
     <file src="..\idlfe\idlfe\src\include\AST\Array.h" target="build\native\include\AST\Array.h" />
     <file src="..\idlfe\idlfe\src\include\AST\Attribute.h" target="build\native\include\AST\Attribute.h" />
     <file src="..\idlfe\idlfe\src\include\AST\BasicType.h" target="build\native\include\AST\BasicType.h" />

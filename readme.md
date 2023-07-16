@@ -8,7 +8,7 @@ Install nirvanaos.idlfe.vc.#.#.# NuGet package.
 
 ## How to build
 
-Requires Win flex-bison: https://sourceforge.net/projects/winflexbison/
+Requires Win flex-bison: https://github.com/lexxmark/winflexbison
 
 1. Build solution configurations:
 * Debug/x86

@@ -145,12 +145,6 @@
     <ClInclude Include="idlfe\src\include\AST\Variant.h">
       <Filter>AST\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="idlfe\src\AST\Builder\Builder.h">
-      <Filter>AST\Source Files\Build</Filter>
-    </ClInclude>
-    <ClInclude Include="idlfe\src\AST\Builder\Declarators.h">
-      <Filter>AST\Source Files\Build</Filter>
-    </ClInclude>
     <ClInclude Include="idlfe\src\AST\Builder\decNumber.h">
       <Filter>AST\Source Files\Build</Filter>
     </ClInclude>
@@ -217,6 +211,12 @@
     <ClInclude Include="idlfe\src\include\BE\MessageOut.h">
       <Filter>BE\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\Declarators.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idlfe\src\include\AST\Builder.h">
+      <Filter>AST\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="idlfe\src\IDL_FrontEnd.cpp">
@@ -227,9 +227,6 @@
     </ClCompile>
     <ClCompile Include="idlfe\src\FE\Driver.cpp">
       <Filter>FE</Filter>
-    </ClCompile>
-    <ClCompile Include="idlfe\src\AST\Builder\Builder.cpp">
-      <Filter>AST\Source Files\Build</Filter>
     </ClCompile>
     <ClCompile Include="idlfe\src\AST\Builder\Eval.cpp">
       <Filter>AST\Source Files\Build</Filter>
@@ -305,6 +302,9 @@
     </ClCompile>
     <ClCompile Include="idlfe\src\BE\MessageOut.cpp">
       <Filter>BE\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="idlfe\src\AST\Builder.cpp">
+      <Filter>AST\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

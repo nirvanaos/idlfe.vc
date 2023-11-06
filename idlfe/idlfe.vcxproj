@@ -43,7 +43,6 @@
     <ClInclude Include="idlfe\src\AST\Builder\EvalIntegral.h" />
     <ClInclude Include="idlfe\src\AST\Builder\EvalString.h" />
     <ClInclude Include="idlfe\src\FE\Driver.h" />
-    <ClInclude Include="idlfe\src\FE\FlexLexer.h" />
     <ClInclude Include="idlfe\src\FE\location.hh" />
     <ClInclude Include="idlfe\src\FE\yacc.tab.h" />
     <ClInclude Include="idlfe\src\include\AST\Array.h" />
@@ -304,7 +303,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>..\decNumber.vc;idlfe\src\FE</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\decNumber.vc;C:\flexbison</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
@@ -324,7 +323,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>..\decNumber.vc;idlfe\src\FE</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\decNumber.vc;C:\flexbison</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
@@ -346,7 +345,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>..\decNumber.vc;idlfe\src\FE</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\decNumber.vc;C:\flexbison</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
@@ -370,7 +369,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>..\decNumber.vc;idlfe\src\FE</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\decNumber.vc;C:\flexbison</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
@@ -391,7 +390,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>..\decNumber.vc;idlfe\src\FE</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\decNumber.vc;C:\flexbison</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
@@ -411,7 +410,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>..\decNumber.vc;idlfe\src\FE</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\decNumber.vc;C:\flexbison</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
@@ -433,7 +432,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>..\decNumber.vc;idlfe\src\FE</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\decNumber.vc;C:\flexbison</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
@@ -457,7 +456,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>..\decNumber.vc;idlfe\src\FE</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\decNumber.vc;C:\flexbison</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>

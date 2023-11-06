@@ -55,9 +55,6 @@
     <ClInclude Include="idlfe\src\FE\Driver.h">
       <Filter>FE</Filter>
     </ClInclude>
-    <ClInclude Include="idlfe\src\FE\FlexLexer.h">
-      <Filter>FE</Filter>
-    </ClInclude>
     <ClInclude Include="idlfe\src\include\AST\Array.h">
       <Filter>AST\Header Files</Filter>
     </ClInclude>

@@ -4,3 +4,6 @@
 [submodule "decNumber.vc"]
 	path = decNumber.vc
 	url = https://github.com/nirvanaos/decNumber.vc.git
+[submodule "SafeInt"]
+	path = SafeInt
+	url = https://github.com/dcleblanc/SafeInt.git

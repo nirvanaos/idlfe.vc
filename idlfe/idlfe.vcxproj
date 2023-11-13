@@ -303,7 +303,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>..\SafeInt;..\decNumber.vc;C:\flexbison</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\SafeInt;..\decNumber.vc;C:\flexbison;idlfe\src\FE</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
@@ -323,7 +323,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>..\SafeInt;..\decNumber.vc;C:\flexbison</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\SafeInt;..\decNumber.vc;C:\flexbison;idlfe\src\FE</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
@@ -345,7 +345,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>..\SafeInt;..\decNumber.vc;C:\flexbison</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\SafeInt;..\decNumber.vc;C:\flexbison;idlfe\src\FE</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
@@ -369,7 +369,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>..\SafeInt;..\decNumber.vc;C:\flexbison</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\SafeInt;..\decNumber.vc;C:\flexbison;idlfe\src\FE</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
@@ -390,7 +390,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>..\SafeInt;..\decNumber.vc;C:\flexbison</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\SafeInt;..\decNumber.vc;C:\flexbison;idlfe\src\FE</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
@@ -410,7 +410,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>..\SafeInt;..\decNumber.vc;C:\flexbison</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\SafeInt;..\decNumber.vc;C:\flexbison;idlfe\src\FE</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
@@ -432,7 +432,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>..\SafeInt;..\decNumber.vc;C:\flexbison</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\SafeInt;..\decNumber.vc;C:\flexbison;idlfe\src\FE</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
@@ -456,7 +456,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>..\SafeInt;..\decNumber.vc;C:\flexbison</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\SafeInt;..\decNumber.vc;C:\flexbison;idlfe\src\FE</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
